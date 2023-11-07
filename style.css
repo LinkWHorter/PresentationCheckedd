@@ -82,3 +82,70 @@ b {
 .right {
     text-align:right;
 }
+
+@media screen and (min-width: 720px) {
+    h2 {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .center {
+        font-size: 30px;
+    }
+
+    img {
+        width: 25%;
+    }    
+
+    .center img {
+        width: 50%;
+    }    
+
+    .center b {
+        font-size: 36px;
+    }
+    
+    b {
+        font-size: 30px;
+    }
+    
+    .left, .right {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 720px) {
+    h1 {
+        font-size: 21px;
+    }
+    
+    h2 {
+        margin-left: 7%;
+        margin-right: 7%;
+        font-size: 18px;
+    }
+
+    .center {
+        font-size: 15px;
+    }
+
+    img {
+        width: 45%;
+    }    
+
+    .center img {
+        width: 55%;
+    }    
+
+    .center b {
+        font-size: 18px;
+    }
+    
+    b {
+        font-size: 15px;
+    }
+    
+    .left, .right {
+        font-size: 14px;
+    }
+}
