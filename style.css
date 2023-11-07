@@ -1,0 +1,84 @@
+body {
+    background: rgb(75,75,75,0.5);
+    background-image: url("Imges/stares.jpg");
+    backdrop-filter: blur(12px);
+    background-size: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background: rgb(75,75,75,0.5);
+    text-shadow: 3px 2px 2px black;
+    border-radius: 30px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h2 {
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    background: rgb(75,75,75,0.5);
+    border-radius: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 5px;
+}
+
+span {
+    color: gray;
+}
+
+img {
+    width: 25%;
+    border: 4px rgba(125, 125, 125, 0.3) solid;
+    border-radius: 12px;
+}
+
+.osn {
+    text-shadow: black 1px 0 10px;
+    background: rgba(125, 125, 125, 0.3);
+    border-radius: 25px;
+    width: 100%;
+    display: inline-block;
+    color: lightgray;
+    padding-bottom: 2.23%;
+    margin: 1;
+}
+
+.center {
+    text-align: center;
+    font-size: 30px;
+}
+
+.center img {
+    width: 50%;
+}
+
+.center b {
+    font-size: 36px;
+}
+
+b {
+    text-shadow: 3px 2px 2px black;
+    color: white;
+    font-size: 30px;
+}
+
+.left, .right {
+    display: block;
+    font-size: 24px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.left {
+    text-align:left;
+}
+
+.right {
+    text-align:right;
+}
