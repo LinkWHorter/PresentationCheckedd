@@ -1,7 +1,6 @@
 body {
     background: rgb(75,75,75,0.5);
     background-image: url("Imges/stares.jpg");
-    backdrop-filter: blur(12px);
     background-size: 100%;
 }
 
@@ -39,6 +38,7 @@ img {
 }
 
 .osn {
+    backdrop-filter: blur(12px);
     text-shadow: black 1px 0 10px;
     background: rgba(125, 125, 125, 0.3);
     border-radius: 25px;
